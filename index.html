@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>WebAuth</title>
+</head>
+<body>
+    <!-- Create text box called token -->
+    <input type="text" id="token" placeholder="Enter token">
+    <!-- Create button called submit -->
+    <button id="submit">Submit</button>
+    <div class="circle">
+        <div class="progresscircle center">
+            <div class="radial-timer-half"></div>
+            <div class="radial-timer-half"></div>
+        </div>
+        <div class="timer">
+            <h1 class="h1co">Code</h1>
+            <p id="code"></p>
+        </div>
+    </div>
+    <div>
+        <p id="timerr"></p>
+    </div>
+    <div class="bottombar"></div>
+    <p>Will save your token in localhost!</p>
+    <script src="bundle.js"></script>
+</body>
+</html>
